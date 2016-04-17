@@ -15,6 +15,7 @@ get_header(); ?>
 							<?php if (of_get_option('top_box_1_image')<>'') : ?><a href="<?php  echo of_get_option('top_box_1_link'); ?>"><img height="180" width="270" src="<?php  echo of_get_option('top_box_1_image'); ?>" alt="" /></a><?php endif; ?>
 							<h5><a href="<?php  echo of_get_option('top_box_1_link'); ?>"><?php  echo of_get_option('top_box_1_title'); ?></a></h5>
 							<p><?php  echo of_get_option('top_box_1_content'); ?></p>
+							<a class="wpb_button_a" title="Learn More" href="<?php  echo of_get_option('top_box_1_link'); ?>"><span class="wpb_button  wpb_btn-danger wpb_regularsize">Learn More</span></a>
 						</div>
 						<?php endif; ?>
 						<?php if (of_get_option('top_box_2_title')<>'') : ?>
@@ -22,6 +23,7 @@ get_header(); ?>
 							<?php if (of_get_option('top_box_2_image')<>'') : ?><a href="<?php  echo of_get_option('top_box_2_link'); ?>"><img height="180" width="270" src="<?php  echo of_get_option('top_box_2_image'); ?>" alt="" /></a><?php endif; ?>
 							<h5><a href="<?php  echo of_get_option('top_box_2_link'); ?>"><?php  echo of_get_option('top_box_2_title'); ?></a></h5>
 							<p><?php  echo of_get_option('top_box_2_content'); ?></p>
+							<a class="wpb_button_a" title="Learn More" href="<?php  echo of_get_option('top_box_2_link'); ?>"><span class="wpb_button  wpb_btn-danger wpb_regularsize">Learn More</span></a>
 						</div>
 						<?php endif; ?>
 						<?php if (of_get_option('top_box_3_title')<>'') : ?>
@@ -29,6 +31,7 @@ get_header(); ?>
 							<?php if (of_get_option('top_box_3_image')<>'') : ?><a href="<?php  echo of_get_option('top_box_3_link'); ?>"><img height="180" width="270" src="<?php  echo of_get_option('top_box_3_image'); ?>" alt="" /></a><?php endif; ?>
 							<h5><a href="<?php  echo of_get_option('top_box_3_link'); ?>"><?php  echo of_get_option('top_box_3_title'); ?></a></h5>
 							<p><?php  echo of_get_option('top_box_3_content'); ?></p>
+							<a class="wpb_button_a" title="Read More" href="<?php  echo of_get_option('top_box_3_link'); ?>"><span class="wpb_button  wpb_btn-danger wpb_regularsize">Read More</span></a>
 						</div>
 						<?php endif; ?>
 						<div class="clear"></div>
@@ -36,28 +39,25 @@ get_header(); ?>
 						<?php if (of_get_option('simple_text_home_page')<>'') : ?><p><?php  echo of_get_option('simple_text_home_page'); ?></p><?php endif; ?>
 						<div class="clear"></div>
 						<?php if (of_get_option('footer_box_1_title')<>'') : ?>
-						<div class="koenda-column-homepage">
+						<div class="koenda-chb">
+							<?php if (of_get_option('footer_box_1_image')<>'') : ?><a href="<?php  echo of_get_option('footer_box_1_link'); ?>"><img height="180" width="270" src="<?php  echo of_get_option('footer_box_1_image'); ?>" alt="" /></a><?php endif; ?>						
 							<h5><a href="<?php  echo of_get_option('footer_box_1_link'); ?>"><?php  echo of_get_option('footer_box_1_title'); ?></a></h5>
-							<p><span class="koenda-homepage-dropcap"><?php _e( '1', 'koenda' ); ?></span><?php  echo of_get_option('footer_box_1_content'); ?></p>
+							<p><?php  echo of_get_option('footer_box_1_content'); ?></p>
 						</div>
 						<?php endif; ?>
 						<?php if (of_get_option('footer_box_2_title')<>'') : ?>
-						<div class="koenda-column-homepage">
+						<div class="koenda-chb">
+							<?php if (of_get_option('footer_box_2_image')<>'') : ?><a href="<?php  echo of_get_option('footer_box_2_link'); ?>"><img height="180" width="270" src="<?php  echo of_get_option('footer_box_2_image'); ?>" alt="" /></a><?php endif; ?>							
 							<h5><a href="<?php  echo of_get_option('footer_box_2_link'); ?>"><?php  echo of_get_option('footer_box_2_title'); ?></a></h5>
-							<p><span class="koenda-homepage-dropcap"><?php _e( '2', 'koenda' ); ?></span><?php  echo of_get_option('footer_box_2_content'); ?></p>
+							<p><?php  echo of_get_option('footer_box_2_content'); ?></p>
 						</div>
 						<?php endif; ?>
 						<?php if (of_get_option('footer_box_3_title')<>'') : ?>
-						<div class="koenda-column-homepage">
+						<div class="koenda-chb last">
+							<?php if (of_get_option('footer_box_3_image')<>'') : ?><a href="<?php  echo of_get_option('footer_box_3_link'); ?>"><img height="180" width="270" src="<?php  echo of_get_option('footer_box_3_image'); ?>" alt="" /></a><?php endif; ?>							
 							<h5><a href="<?php  echo of_get_option('footer_box_3_link'); ?>"><?php  echo of_get_option('footer_box_3_title'); ?></a></h5>
-							<p><span class="koenda-homepage-dropcap"><?php _e( '3', 'koenda' ); ?></span><?php  echo of_get_option('footer_box_3_content'); ?></p>
+							<p><?php  echo of_get_option('footer_box_3_content'); ?></p>
 						</div>
-						<?php endif; ?>
-						<?php if (of_get_option('footer_box_4_title')<>'') : ?>
-						<div class="koenda-column-homepage last">
-							<h5><a href="<?php  echo of_get_option('footer_box_4_link'); ?>"><?php  echo of_get_option('footer_box_4_title'); ?></a></h5>
-							<p><span class="koenda-homepage-dropcap"><?php _e( '4', 'koenda' ); ?></span><?php  echo of_get_option('footer_box_4_content'); ?></p>
-						</div>	
 						<?php endif; ?>
                         <div class="clear"></div>						
 					</div>	

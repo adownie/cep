@@ -381,6 +381,12 @@ function optionsframework_options() {
 		'type' => 'text');
 
 	$options[] = array(
+		'name' => __('Footer Box 1 Image', 'options_framework_theme'),
+		'desc' => __('Recommended image sizes 270X180', 'options_framework_theme'),
+		'id' => 'footer_box_1_image',
+		'type' => 'upload');	
+
+	$options[] = array(
 		'name' => __('Footer Box 1  Link', 'options_framework_theme'),
 		'desc' => __('', 'options_framework_theme'),
 		'id' => 'footer_box_1_link',
@@ -399,6 +405,12 @@ function optionsframework_options() {
 		'type' => 'text');
 
 	$options[] = array(
+		'name' => __('Footer Box 2 Image', 'options_framework_theme'),
+		'desc' => __('Recommended image sizes 270X180', 'options_framework_theme'),
+		'id' => 'footer_box_2_image',
+		'type' => 'upload');	
+
+	$options[] = array(
 		'name' => __('Footer Box 2  Link', 'options_framework_theme'),
 		'desc' => __('', 'options_framework_theme'),
 		'id' => 'footer_box_2_link',
@@ -415,6 +427,12 @@ function optionsframework_options() {
 		'desc' => __('', 'options_framework_theme'),
 		'id' => 'footer_box_3_title',
 		'type' => 'text');
+
+	$options[] = array(
+		'name' => __('Footer Box 3 Image', 'options_framework_theme'),
+		'desc' => __('Recommended image sizes 270X180', 'options_framework_theme'),
+		'id' => 'footer_box_3_image',
+		'type' => 'upload');	
 		
 	$options[] = array(
 		'name' => __('Footer Box 3  Link', 'options_framework_theme'),
@@ -427,24 +445,6 @@ function optionsframework_options() {
 		'desc' => __('', 'options_framework_theme'),
 		'id' => 'footer_box_3_content',
 		'type' => 'textarea');	
-
-	$options[] = array(
-		'name' => __('Footer Box 4  Title', 'options_framework_theme'),
-		'desc' => __('', 'options_framework_theme'),
-		'id' => 'footer_box_4_title',
-		'type' => 'text');
-		
-	$options[] = array(
-		'name' => __('Footer Box 4  Link', 'options_framework_theme'),
-		'desc' => __('', 'options_framework_theme'),
-		'id' => 'footer_box_4_link',
-		'type' => 'text');		
-		
-	$options[] = array(
-		'name' => __('Footer Box 4  Content', 'options_framework_theme'),
-		'desc' => __('', 'options_framework_theme'),
-		'id' => 'footer_box_4_content',
-		'type' => 'textarea');			
 
 		
 	/* Featured Slider */		
