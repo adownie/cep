@@ -1,0 +1,76 @@
+== Changelog ==
+
+Version 1.5 - Apr 8 2016
+* Add: Breadcrumb feature
+* Update: Minor bug fixes
+
+Version 1.4 - Mar 31 2016
+* Add: Support for custom logo in WP 4.5
+* Remove: Support for custom Favicon on favor of provided by core
+* Update: Upgrade minimum required WP to 4.3
+* Update: Minor bug fixes
+
+Version 1.3 - Nov 26 2015
+* Update: Minor bug fixes
+
+Version 1.2 - Oct 19 2015
+* Update: Remove support for WP less than 4.1
+* Update: Update Font Awesome and new social icons
+* Fix: Minor bug fixes
+
+Version 1.1.1 - Oct 5 2015
+* Update: Favicon compatibility
+* Fix: Minor bug fixes
+
+Version 1.1 - Aug 25 2015
+* Fix: Sidebar issue in front page
+
+Version 1.0.9
+* Fix: Missing translatable strings
+* Fix: Static front page content issue
+* Fix: Jetpack scroll issue
+* Update: PHP5 style constructor in widgets
+
+Version 1.0.8
+* Fix: Collapsed slider images
+
+Version 1.0.7
+* Fix: Issue of shortcode in excerpt
+* Update: Make images of slider clickable
+* Fix: Minor bug fixes
+
+Version 1.0.6
+* Update: Make functions overridable from child theme
+* Fix: Make image in widget and archive clickable to the post
+* Fix: Minor bug fixes
+
+Version 1.0.5
+* Fix: Missing search icon issue in IE
+* Fix: Flickering issue in main slider
+
+Version 1.0.4
+* Updated third party scripts and styles
+* Minified scripts for boosting performance
+* Fixed few styling issues
+
+Version 1.0.3
+* Remove unnecessary scripts
+* Fix header search form
+* Fix minor styling issues
+
+Version 1.0.2
+* Validation in Custom CSS field
+* Removed scripts from header file
+* Display some default widgets if no widget is added in Front Page Widget Area
+* Display default message in Sidebar if no widget
+* Minor bug fixes
+
+Version 1.0.1
+* Retouch in CSS styling
+* Simpler social icon management with WP Nav menu
+* Modify Service widget to display icon
+* New search icon in header
+* Change slider style
+
+Version 1.0.0
+* Initial Submission to WordPress.org

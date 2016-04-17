@@ -1,0 +1,401 @@
+0000.000 (0) Opened log file at time: Thu, 14 Apr 2016 00:18:30 +0000 on http://beta.chicagoestateplanning.info
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.4 WP: 4.5 PHP: 5.6.17 (Linux box572.bluehost.com 3.12.52-20160119.106.ELK6.x86_64 #1 SMP Tue Jan 19 16:53:32 CST 2016 x86_64) MySQL: 5.5.42 WPLANG:  Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 9.3M | 10.8M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.141 (0) Free space on disk containing Updraft's temporary directory: 73304.8 MB
+0000.144 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.154 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.155 (0) Set semaphore last lock (fd) time to 2016-04-14 00:18:30
+0000.156 (0) Semaphore lock (fd) complete
+0000.160 (0) Backup run: resumption=0, nonce=2b00e94eb6a0, begun at=1460593110 (0s ago), job type=backup
+0000.162 (0) Scheduling a resumption (1) after 300 seconds (1460593410) in case this run gets aborted
+0000.198 (0) Checking if we have a zip executable available
+0000.199 (0) Testing: /usr/bin/zip
+0000.207 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.209 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.210 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.211 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=128) (out=105) (deflated 18%)
+0000.212 (0) Output: total bytes=128, compressed=105 -> 18% savings
+0000.220 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=135) (out=111) (deflated 18%)
+0000.221 (0) Output: total bytes=263, compressed=216 -> 18% savings
+0000.243 (0) Working binary zip found: /usr/bin/zip
+0000.245 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.246 (0) Creation of backups of directories: beginning
+0000.248 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.603 (0) Total entities for the zip file: 852 directories, 5816 files (0 skipped as non-modified), 92.6 MB
+0000.608 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.611 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.615 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.618 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.621 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.622 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.5 MB, 5816 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.363 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: size is now: 3.50 MB
+0001.372 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 600 files added (on-disk size: 3552.3 KB)
+0001.379 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 700 files added (on-disk size: 3552.3 KB)
+0001.386 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 800 files added (on-disk size: 3552.3 KB)
+0001.393 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 900 files added (on-disk size: 3552.3 KB)
+0001.400 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 1000 files added (on-disk size: 3552.3 KB)
+0001.401 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.7 MB, 5816 files batched, 501 (1002) added so far); re-opening (prior size: 3552.3 KB)
+0001.951 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: size is now: 8.10 MB
+0001.965 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 1100 files added (on-disk size: 8304.1 KB)
+0001.976 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 1200 files added (on-disk size: 8304.1 KB)
+0001.979 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 1300 files added (on-disk size: 8304.1 KB)
+0001.983 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 1400 files added (on-disk size: 8304.1 KB)
+0001.987 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 1500 files added (on-disk size: 8304.1 KB)
+0001.987 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.9 MB, 5816 files batched, 501 (1503) added so far); re-opening (prior size: 8304.1 KB)
+0002.786 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 1600 files added (on-disk size: 9944.6 KB)
+0002.792 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 1700 files added (on-disk size: 9944.6 KB)
+0002.797 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 1800 files added (on-disk size: 9944.6 KB)
+0002.803 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 1900 files added (on-disk size: 9944.6 KB)
+0002.809 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 2000 files added (on-disk size: 9944.6 KB)
+0002.810 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.6 MB, 5816 files batched, 501 (2004) added so far); re-opening (prior size: 9944.6 KB)
+0003.877 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: size is now: 13.80 MB
+0003.883 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 2100 files added (on-disk size: 14115.6 KB)
+0003.887 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 2200 files added (on-disk size: 14115.6 KB)
+0003.891 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 2300 files added (on-disk size: 14115.6 KB)
+0003.894 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 2400 files added (on-disk size: 14115.6 KB)
+0003.897 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 2500 files added (on-disk size: 14115.6 KB)
+0003.898 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 MB, 5816 files batched, 501 (2505) added so far); re-opening (prior size: 14115.6 KB)
+0004.163 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 2600 files added (on-disk size: 14684.2 KB)
+0004.178 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 2700 files added (on-disk size: 14684.2 KB)
+0004.185 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 2800 files added (on-disk size: 14684.2 KB)
+0004.191 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 2900 files added (on-disk size: 14684.2 KB)
+0004.198 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 3000 files added (on-disk size: 14684.2 KB)
+0004.199 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.9 MB, 5816 files batched, 501 (3006) added so far); re-opening (prior size: 14684.2 KB)
+0005.212 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: size is now: 18.00 MB
+0005.279 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 3100 files added (on-disk size: 18422.9 KB)
+0005.297 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 3200 files added (on-disk size: 18422.9 KB)
+0005.306 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 3300 files added (on-disk size: 18422.9 KB)
+0005.314 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 3400 files added (on-disk size: 18422.9 KB)
+0005.318 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 3500 files added (on-disk size: 18422.9 KB)
+0005.319 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.5 MB, 5816 files batched, 501 (3507) added so far); re-opening (prior size: 18422.9 KB)
+0006.764 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: size is now: 21.60 MB
+0006.778 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 3600 files added (on-disk size: 22162.2 KB)
+0006.787 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 3700 files added (on-disk size: 22162.2 KB)
+0006.794 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 3800 files added (on-disk size: 22162.2 KB)
+0006.801 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 3900 files added (on-disk size: 22162.2 KB)
+0006.808 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 4000 files added (on-disk size: 22162.2 KB)
+0006.809 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.8 MB, 5816 files batched, 501 (4008) added so far); re-opening (prior size: 22162.2 KB)
+0007.811 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: size is now: 29.30 MB
+0007.817 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 4100 files added (on-disk size: 30047.5 KB)
+0007.820 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 4200 files added (on-disk size: 30047.5 KB)
+0007.824 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 4300 files added (on-disk size: 30047.5 KB)
+0007.827 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 4400 files added (on-disk size: 30047.5 KB)
+0007.831 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 4500 files added (on-disk size: 30047.5 KB)
+0007.832 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.2 MB, 5816 files batched, 501 (4509) added so far); re-opening (prior size: 30047.5 KB)
+0008.266 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 4600 files added (on-disk size: 31326.4 KB)
+0008.272 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 4700 files added (on-disk size: 31326.4 KB)
+0008.278 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 4800 files added (on-disk size: 31326.4 KB)
+0008.284 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 4900 files added (on-disk size: 31326.4 KB)
+0008.290 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 5000 files added (on-disk size: 31326.4 KB)
+0008.291 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.2 MB, 5816 files batched, 501 (5010) added so far); re-opening (prior size: 31326.4 KB)
+0008.981 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 5100 files added (on-disk size: 34428.6 KB)
+0008.985 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 5200 files added (on-disk size: 34428.6 KB)
+0008.988 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 5300 files added (on-disk size: 34428.6 KB)
+0008.992 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 5400 files added (on-disk size: 34428.6 KB)
+0008.995 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 5500 files added (on-disk size: 34428.6 KB)
+0008.996 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.8 MB, 5816 files batched, 501 (5511) added so far); re-opening (prior size: 34428.6 KB)
+0010.004 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 5600 files added (on-disk size: 39730.4 KB)
+0010.007 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 5700 files added (on-disk size: 39730.4 KB)
+0010.010 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip.tmp: 5800 files added (on-disk size: 39730.4 KB)
+0010.594 (0) Created plugins zip (0) - 41664 KB in 10.2 s (4079.2 KB/s) (SHA1 checksum: 5cf01289c4bde2a5480bf47f6227a1d46752a943)
+0010.597 (0) Beginning creation of dump of themes (split every: 400 MB)
+0010.792 (0) Total entities for the zip file: 213 directories, 1830 files (0 skipped as non-modified), 46 MB
+0010.796 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0010.800 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0010.803 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0010.806 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0010.809 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0010.810 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (21.7 MB, 1830 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0011.694 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip.tmp: size is now: 18.00 MB
+0011.702 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip.tmp: 600 files added (on-disk size: 18420.5 KB)
+0011.706 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip.tmp: 700 files added (on-disk size: 18420.5 KB)
+0011.709 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip.tmp: 800 files added (on-disk size: 18420.5 KB)
+0011.713 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip.tmp: 900 files added (on-disk size: 18420.5 KB)
+0011.716 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip.tmp: 1000 files added (on-disk size: 18420.5 KB)
+0011.717 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.1 MB, 1830 files batched, 501 (1002) added so far); re-opening (prior size: 18420.5 KB)
+0013.248 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip.tmp: size is now: 24.50 MB
+0013.292 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip.tmp: 1100 files added (on-disk size: 25053.5 KB)
+0013.298 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip.tmp: 1200 files added (on-disk size: 25053.5 KB)
+0013.304 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip.tmp: 1300 files added (on-disk size: 25053.5 KB)
+0013.316 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip.tmp: 1400 files added (on-disk size: 25053.5 KB)
+0013.320 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip.tmp: 1500 files added (on-disk size: 25053.5 KB)
+0013.321 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.7 MB, 1830 files batched, 501 (1503) added so far); re-opening (prior size: 25053.5 KB)
+0014.632 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip.tmp: size is now: 32.00 MB
+0014.642 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip.tmp: 1600 files added (on-disk size: 32743.3 KB)
+0014.646 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip.tmp: 1700 files added (on-disk size: 32743.3 KB)
+0014.649 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip.tmp: 1800 files added (on-disk size: 32743.3 KB)
+0015.542 (0) Created themes zip (0) - 35524.3 KB in 4.8 s (7387.5 KB/s) (SHA1 checksum: cb216e4b22fe46087d5e4636ce84fab2168bcfe8)
+0015.545 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0015.546 (0) Looking for candidates to back up in: /home6/chicagx4/public_html/beta/wp-content/uploads
+0015.548 (0) finding files: 2010: adding to list (1)
+0015.549 (0) finding files: 2014: adding to list (2)
+0015.550 (0) finding files: 2015: adding to list (3)
+0015.551 (0) finding files: wpcf7_captcha: adding to list (4)
+0015.552 (0) finding files: js_composer: adding to list (5)
+0015.553 (0) finding files: edd: adding to list (6)
+0015.554 (0) finding files: 2016: adding to list (7)
+0015.555 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0015.784 (0) Total entities for the zip file: 26 directories, 348 files (0 skipped as non-modified), 77.8 MB
+0015.791 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0015.797 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (30.4 MB, 348 files batched, 198 (198) added so far); re-opening (prior size: 0 KB)
+0017.358 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-uploads.zip.tmp: size is now: 30.50 MB
+0017.376 (0) A useful amount of data was added after this amount of zip processing: 2.2 s (normalised: 1.8 s, rate: 14156.9 KB/s)
+0017.378 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.2000360488892, normalised_time=1.8083117790206, max_time=-1, data points known=0, old_max_bytes=26214400, new_max_bytes=86979691)
+0017.381 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-uploads.zip.tmp: 200 files added (on-disk size: 31189.9 KB)
+0017.388 (0) Zip: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-uploads.zip.tmp: 300 files added (on-disk size: 31189.9 KB)
+0018.552 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-uploads.zip.tmp: size is now: 77.80 MB
+0018.954 (0) Created uploads zip (0) - 79642 KB in 3.2 s (24968.1 KB/s) (SHA1 checksum: 0229daa644e048f931f6a4ed593a2272c5bc8325)
+0018.957 (0) Beginning backup of other directories found in the content directory (index: 0)
+0018.958 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0018.959 (0) Looking for candidates to back up in: /home6/chicagx4/public_html/beta/wp-content
+0018.960 (0) finding files: upgrade: skipping: excluded by options
+0018.961 (0) finding files: plugins: skipping: this is the plugins directory
+0018.962 (0) finding files: updraft: skipping: this is the updraft directory
+0018.963 (0) finding files: uploads: skipping: this is the uploads directory
+0018.964 (0) finding files: index.php: adding to list (1)
+0018.965 (0) finding files: themes: skipping: this is the themes directory
+0018.966 (0) finding files: wflogs: adding to list (2)
+0018.967 (0) finding files: install.php: adding to list (3)
+0018.968 (0) finding files: mu-plugins: adding to list (4)
+0019.131 (0) Total entities for the zip file: 2 directories, 9 files (0 skipped as non-modified), 0.1 MB
+0019.144 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-others.zip.tmp: size is now: 0.00 MB
+0019.148 (0) Created others zip (0) - 12 KB in 0 s (571.8 KB/s) (SHA1 checksum: 4da209331b2c06abaa955deeb2daa8f660a0e032)
+0019.152 (0) Saving backup status to database (elements: 8)
+0019.157 (0) Beginning creation of database dump (WordPress DB)
+0019.159 (0) Testing: /usr/bin/mysqldump
+0019.177 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0019.189 (0) Table wp_quaj_options: Total expected rows (approximate): 396
+0019.215 (0) Table wp_quaj_options: Total rows added: 395 in 0.03 seconds
+0019.219 (0) Table wp_quaj_options: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_options.table.gz - 63.7 KB)
+0019.224 (0) Table wp_quaj_users: Total expected rows (approximate): 3
+0019.227 (0) Table wp_quaj_users: Total rows added: 3 in 0.00 seconds
+0019.228 (0) Table wp_quaj_users: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_users.table.gz - 0.7 KB)
+0019.231 (0) Table wp_quaj_usermeta: Total expected rows (approximate): 50
+0019.235 (0) Table wp_quaj_usermeta: Total rows added: 50 in 0.00 seconds
+0019.236 (0) Table wp_quaj_usermeta: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_usermeta.table.gz - 2 KB)
+0019.240 (0) Table wp_quaj_commentmeta: Total expected rows (approximate): 0
+0019.242 (0) Table wp_quaj_commentmeta: Total rows added: 0 in 0.00 seconds
+0019.243 (0) Table wp_quaj_commentmeta: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_commentmeta.table.gz - 0.4 KB)
+0019.247 (0) Table wp_quaj_comments: Total expected rows (approximate): 0
+0019.249 (0) Table wp_quaj_comments: Total rows added: 0 in 0.00 seconds
+0019.250 (0) Table wp_quaj_comments: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_comments.table.gz - 0.5 KB)
+0019.254 (0) Table wp_quaj_links: Total expected rows (approximate): 0
+0019.256 (0) Table wp_quaj_links: Total rows added: 0 in 0.00 seconds
+0019.257 (0) Table wp_quaj_links: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_links.table.gz - 0.4 KB)
+0019.261 (0) Table wp_quaj_postmeta: Total expected rows (approximate): 2082
+0019.310 (0) Table wp_quaj_postmeta: Total rows added: 2082 in 0.05 seconds
+0019.312 (0) Table wp_quaj_postmeta: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_postmeta.table.gz - 26.4 KB)
+0019.317 (0) Table wp_quaj_posts: Total expected rows (approximate): 306
+0019.408 (0) Table wp_quaj_posts: Total rows added: 306 in 0.09 seconds
+0019.410 (0) Table wp_quaj_posts: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_posts.table.gz - 154.2 KB)
+0019.415 (0) Table wp_quaj_term_relationships: Total expected rows (approximate): 61
+0019.419 (0) Table wp_quaj_term_relationships: Total rows added: 61 in 0.00 seconds
+0019.420 (0) Table wp_quaj_term_relationships: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_term_relationships.table.gz - 0.6 KB)
+0019.425 (0) Table wp_quaj_term_taxonomy: Total expected rows (approximate): 17
+0019.428 (0) Table wp_quaj_term_taxonomy: Total rows added: 17 in 0.00 seconds
+0019.429 (0) Table wp_quaj_term_taxonomy: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_term_taxonomy.table.gz - 0.5 KB)
+0019.434 (0) Table wp_quaj_termmeta: Total expected rows (approximate): 0
+0019.436 (0) Table wp_quaj_termmeta: Total rows added: 0 in 0.00 seconds
+0019.437 (0) Table wp_quaj_termmeta: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_termmeta.table.gz - 0.4 KB)
+0019.441 (0) Table wp_quaj_terms: Total expected rows (approximate): 17
+0019.446 (0) Table wp_quaj_terms: Total rows added: 17 in 0.00 seconds
+0019.447 (0) Table wp_quaj_terms: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_terms.table.gz - 0.6 KB)
+0019.452 (0) Table wp_quaj_ebd_item: Total expected rows (approximate): 0
+0019.454 (0) Table wp_quaj_ebd_item: Total rows added: 0 in 0.00 seconds
+0019.455 (0) Table wp_quaj_ebd_item: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_ebd_item.table.gz - 0.4 KB)
+0019.460 (0) Table wp_quaj_ebd_link: Total expected rows (approximate): 0
+0019.463 (0) Table wp_quaj_ebd_link: Total rows added: 0 in 0.00 seconds
+0019.464 (0) Table wp_quaj_ebd_link: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_ebd_link.table.gz - 0.4 KB)
+0019.469 (0) Table wp_quaj_ebd_posted_data: Total expected rows (approximate): 0
+0019.472 (0) Table wp_quaj_ebd_posted_data: Total rows added: 0 in 0.00 seconds
+0019.474 (0) Table wp_quaj_ebd_posted_data: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_ebd_posted_data.table.gz - 0.3 KB)
+0019.480 (0) Table wp_quaj_edd_customers: Total expected rows (approximate): 0
+0019.482 (0) Table wp_quaj_edd_customers: Total rows added: 0 in 0.00 seconds
+0019.483 (0) Table wp_quaj_edd_customers: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_edd_customers.table.gz - 0.4 KB)
+0019.487 (0) Table wp_quaj_event_hours: Total expected rows (approximate): 0
+0019.490 (0) Table wp_quaj_event_hours: Total rows added: 0 in 0.00 seconds
+0019.491 (0) Table wp_quaj_event_hours: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_event_hours.table.gz - 0.4 KB)
+0019.495 (0) Table wp_quaj_layerslider: Total expected rows (approximate): 0
+0019.498 (0) Table wp_quaj_layerslider: Total rows added: 0 in 0.00 seconds
+0019.499 (0) Table wp_quaj_layerslider: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_layerslider.table.gz - 0.3 KB)
+0019.505 (0) Table wp_quaj_reservations: Total expected rows (approximate): 0
+0019.509 (0) Table wp_quaj_reservations: Total rows added: 0 in 0.00 seconds
+0019.510 (0) Table wp_quaj_reservations: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_reservations.table.gz - 0.4 KB)
+0019.516 (0) Table wp_quaj_wfBadLeechers: Total expected rows (approximate): 0
+0019.518 (0) Table wp_quaj_wfBadLeechers: Total rows added: 0 in 0.00 seconds
+0019.519 (0) Table wp_quaj_wfBadLeechers: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfBadLeechers.table.gz - 0.3 KB)
+0019.525 (0) Table wp_quaj_wfBlockedIPLog: Total expected rows (approximate): 0
+0019.528 (0) Table wp_quaj_wfBlockedIPLog: Total rows added: 0 in 0.00 seconds
+0019.529 (0) Table wp_quaj_wfBlockedIPLog: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfBlockedIPLog.table.gz - 0.3 KB)
+0019.533 (0) Table wp_quaj_wfBlocks: Total expected rows (approximate): 0
+0019.537 (0) Table wp_quaj_wfBlocks: Total rows added: 0 in 0.00 seconds
+0019.538 (0) Table wp_quaj_wfBlocks: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfBlocks.table.gz - 0.4 KB)
+0019.544 (0) Table wp_quaj_wfBlocksAdv: Total expected rows (approximate): 0
+0019.548 (0) Table wp_quaj_wfBlocksAdv: Total rows added: 0 in 0.00 seconds
+0019.549 (0) Table wp_quaj_wfBlocksAdv: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfBlocksAdv.table.gz - 0.3 KB)
+0019.553 (0) Table wp_quaj_wfConfig: Total expected rows (approximate): 125
+0019.564 (0) Table wp_quaj_wfConfig: Total rows added: 125 in 0.01 seconds
+0019.565 (0) Table wp_quaj_wfConfig: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfConfig.table.gz - 2.5 KB)
+0019.572 (0) Table wp_quaj_wfCrawlers: Total expected rows (approximate): 0
+0019.574 (0) Table wp_quaj_wfCrawlers: Total rows added: 0 in 0.00 seconds
+0019.576 (0) Table wp_quaj_wfCrawlers: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfCrawlers.table.gz - 0.3 KB)
+0019.582 (0) Table wp_quaj_wfFileMods: Total expected rows (approximate): 8142
+0019.730 (0) Table wp_quaj_wfFileMods: binary mysqldump finished (writes: 32) in 0.15 seconds
+0019.733 (0) Table wp_quaj_wfFileMods: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfFileMods.table.gz - 364.2 KB)
+0019.741 (0) Table wp_quaj_wfHits: Total expected rows (approximate): 0
+0019.746 (0) Table wp_quaj_wfHits: Total rows added: 0 in 0.00 seconds
+0019.747 (0) Table wp_quaj_wfHits: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfHits.table.gz - 0.4 KB)
+0019.753 (0) Table wp_quaj_wfHoover: Total expected rows (approximate): 0
+0019.756 (0) Table wp_quaj_wfHoover: Total rows added: 0 in 0.00 seconds
+0019.757 (0) Table wp_quaj_wfHoover: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfHoover.table.gz - 0.3 KB)
+0019.765 (0) Table wp_quaj_wfIssues: Total expected rows (approximate): 6
+0019.769 (0) Table wp_quaj_wfIssues: Total rows added: 6 in 0.00 seconds
+0019.770 (0) Table wp_quaj_wfIssues: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfIssues.table.gz - 2.1 KB)
+0019.776 (0) Table wp_quaj_wfLeechers: Total expected rows (approximate): 0
+0019.778 (0) Table wp_quaj_wfLeechers: Total rows added: 0 in 0.00 seconds
+0019.780 (0) Table wp_quaj_wfLeechers: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfLeechers.table.gz - 0.3 KB)
+0019.784 (0) Table wp_quaj_wfLockedOut: Total expected rows (approximate): 0
+0019.787 (0) Table wp_quaj_wfLockedOut: Total rows added: 0 in 0.00 seconds
+0019.788 (0) Table wp_quaj_wfLockedOut: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfLockedOut.table.gz - 0.3 KB)
+0019.794 (0) Table wp_quaj_wfLocs: Total expected rows (approximate): 0
+0019.799 (0) Table wp_quaj_wfLocs: Total rows added: 0 in 0.00 seconds
+0019.801 (0) Table wp_quaj_wfLocs: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfLocs.table.gz - 0.4 KB)
+0019.807 (0) Table wp_quaj_wfLogins: Total expected rows (approximate): 0
+0019.810 (0) Table wp_quaj_wfLogins: Total rows added: 0 in 0.00 seconds
+0019.811 (0) Table wp_quaj_wfLogins: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfLogins.table.gz - 0.4 KB)
+0019.816 (0) Table wp_quaj_wfNet404s: Total expected rows (approximate): 0
+0019.818 (0) Table wp_quaj_wfNet404s: Total rows added: 0 in 0.00 seconds
+0019.820 (0) Table wp_quaj_wfNet404s: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfNet404s.table.gz - 0.3 KB)
+0019.826 (0) Table wp_quaj_wfReverseCache: Total expected rows (approximate): 0
+0019.828 (0) Table wp_quaj_wfReverseCache: Total rows added: 0 in 0.00 seconds
+0019.830 (0) Table wp_quaj_wfReverseCache: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfReverseCache.table.gz - 0.3 KB)
+0019.836 (0) Table wp_quaj_wfScanners: Total expected rows (approximate): 0
+0019.838 (0) Table wp_quaj_wfScanners: Total rows added: 0 in 0.00 seconds
+0019.839 (0) Table wp_quaj_wfScanners: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfScanners.table.gz - 0.3 KB)
+0019.846 (0) Table wp_quaj_wfStatus: Total expected rows (approximate): 216
+0019.861 (0) Table wp_quaj_wfStatus: Total rows added: 216 in 0.01 seconds
+0019.863 (0) Table wp_quaj_wfStatus: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfStatus.table.gz - 4.5 KB)
+0019.869 (0) Table wp_quaj_wfThrottleLog: Total expected rows (approximate): 0
+0019.872 (0) Table wp_quaj_wfThrottleLog: Total rows added: 0 in 0.00 seconds
+0019.873 (0) Table wp_quaj_wfThrottleLog: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfThrottleLog.table.gz - 0.3 KB)
+0019.878 (0) Table wp_quaj_wfVulnScanners: Total expected rows (approximate): 0
+0019.881 (0) Table wp_quaj_wfVulnScanners: Total rows added: 0 in 0.00 seconds
+0019.882 (0) Table wp_quaj_wfVulnScanners: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfVulnScanners.table.gz - 0.3 KB)
+0019.888 (0) Table wp_quaj_yikes_easy_mc_forms: Total expected rows (approximate): 0
+0019.891 (0) Table wp_quaj_yikes_easy_mc_forms: Total rows added: 0 in 0.00 seconds
+0019.893 (0) Table wp_quaj_yikes_easy_mc_forms: finishing file (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_yikes_easy_mc_forms.table.gz - 0.5 KB)
+0019.897 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_options.table.gz (1/40): adding to final database dump
+0019.918 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_users.table.gz (2/40): adding to final database dump
+0019.920 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_usermeta.table.gz (3/40): adding to final database dump
+0019.921 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_commentmeta.table.gz (4/40): adding to final database dump
+0019.922 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_comments.table.gz (5/40): adding to final database dump
+0019.923 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_links.table.gz (6/40): adding to final database dump
+0019.924 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_postmeta.table.gz (7/40): adding to final database dump
+0019.942 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_posts.table.gz (8/40): adding to final database dump
+0019.989 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_term_relationships.table.gz (9/40): adding to final database dump
+0019.991 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_term_taxonomy.table.gz (10/40): adding to final database dump
+0019.992 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_termmeta.table.gz (11/40): adding to final database dump
+0019.993 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_terms.table.gz (12/40): adding to final database dump
+0019.995 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_ebd_item.table.gz (13/40): adding to final database dump
+0019.996 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_ebd_link.table.gz (14/40): adding to final database dump
+0019.997 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_ebd_posted_data.table.gz (15/40): adding to final database dump
+0019.998 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_edd_customers.table.gz (16/40): adding to final database dump
+0020.000 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_event_hours.table.gz (17/40): adding to final database dump
+0020.001 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_layerslider.table.gz (18/40): adding to final database dump
+0020.002 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_reservations.table.gz (19/40): adding to final database dump
+0020.003 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfBadLeechers.table.gz (20/40): adding to final database dump
+0020.004 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfBlockedIPLog.table.gz (21/40): adding to final database dump
+0020.005 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfBlocks.table.gz (22/40): adding to final database dump
+0020.006 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfBlocksAdv.table.gz (23/40): adding to final database dump
+0020.007 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfConfig.table.gz (24/40): adding to final database dump
+0020.009 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfCrawlers.table.gz (25/40): adding to final database dump
+0020.010 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfFileMods.table.gz (26/40): adding to final database dump
+0020.065 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfHits.table.gz (27/40): adding to final database dump
+0020.068 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfHoover.table.gz (28/40): adding to final database dump
+0020.069 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfIssues.table.gz (29/40): adding to final database dump
+0020.070 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfLeechers.table.gz (30/40): adding to final database dump
+0020.071 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfLockedOut.table.gz (31/40): adding to final database dump
+0020.072 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfLocs.table.gz (32/40): adding to final database dump
+0020.073 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfLogins.table.gz (33/40): adding to final database dump
+0020.074 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfNet404s.table.gz (34/40): adding to final database dump
+0020.076 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfReverseCache.table.gz (35/40): adding to final database dump
+0020.077 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfScanners.table.gz (36/40): adding to final database dump
+0020.078 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfStatus.table.gz (37/40): adding to final database dump
+0020.083 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfThrottleLog.table.gz (38/40): adding to final database dump
+0020.084 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_wfVulnScanners.table.gz (39/40): adding to final database dump
+0020.086 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db-table-wp_quaj_yikes_easy_mc_forms.table.gz (40/40): adding to final database dump
+0020.088 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db.gz: finished writing out complete database file (608 KB)
+0020.095 (0) Total database tables backed up: 40 (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db.gz, size: 638588, checksum (SHA1): 29dec7e6a0a8e76e3b7a41fccbcc6923ce01b2f7)
+0020.103 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0020.104 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0020.105 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0020.106 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-others.zip: others: This file has not yet been successfully uploaded: will queue
+0020.106 (0) backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db.gz: db: This file has not yet been successfully uploaded: will queue
+0020.107 (0) Saving backup history. Total backup size: 153.8 MB
+0020.109 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0020.112 (0) Cloud backup selection (1/1): dropbox (last)
+0020.113 (0) Beginning dispatch of backup to remote (dropbox)
+0020.114 (0) Dropbox: begin cloud upload
+0020.121 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0020.338 (0) Dropbox quota usage: normal=51.4 MB, shared=0 MB, total=2048 MB, available=1996.6 MB
+0020.343 (0) Dropbox: Attempt to upload: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip to: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip
+0022.327 (0) Dropbox chunked upload: 2.5 % uploaded (AAAAAAAAAA03ClZuFmrCvw, 1048576, 4608 KB)
+0025.851 (0) Dropbox chunked upload: 13.5 % uploaded (AAAAAAAAAA03ClZuFmrCvw, 5767168, 10240 KB)
+0031.321 (0) Dropbox chunked upload: 38.1 % uploaded (AAAAAAAAAA03ClZuFmrCvw, 16252928, 10240 KB)
+0038.827 (0) Dropbox chunked upload: 62.7 % uploaded (AAAAAAAAAA03ClZuFmrCvw, 26738688, 10240 KB)
+0044.005 (0) Dropbox chunked upload: 87.3 % uploaded (AAAAAAAAAA03ClZuFmrCvw, 37224448, 10240 KB)
+0050.572 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAA03ClZuFmrCvw, 42663920, 10240 KB)
+0052.022 (0) Recording as successfully uploaded: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip (0f667f2af65411c551c4798393baa2e9)
+0052.044 (0) Deleting local file: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip: OK
+0052.045 (0) Dropbox: File upload success (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-plugins.zip): 41663 KB in 31s (1314 KB/s)
+0052.331 (0) Dropbox quota usage: normal=92.1 MB, shared=0 MB, total=2048 MB, available=1955.9 MB
+0052.332 (0) Dropbox: Attempt to upload: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip to: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip
+0057.862 (0) Dropbox chunked upload: 28.8 % uploaded (AAAAAAAAAA7dsX0-jNLjbg, 10485760, 10240 KB)
+0063.655 (0) Dropbox chunked upload: 57.7 % uploaded (AAAAAAAAAA7dsX0-jNLjbg, 20971520, 10240 KB)
+0067.710 (0) Dropbox chunked upload: 86.5 % uploaded (AAAAAAAAAA7dsX0-jNLjbg, 31457280, 10240 KB)
+0073.793 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAA7dsX0-jNLjbg, 36376834, 10240 KB)
+0076.211 (0) Recording as successfully uploaded: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip (3b6290e7e2866ee737b99123fee3981c)
+0076.223 (0) Deleting local file: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip: OK
+0076.224 (0) Dropbox: File upload success (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-themes.zip): 35524 KB in 23s (1486 KB/s)
+0076.442 (0) Dropbox quota usage: normal=126.8 MB, shared=0 MB, total=2048 MB, available=1921.2 MB
+0076.444 (0) Dropbox: Attempt to upload: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-uploads.zip to: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-uploads.zip
+0081.602 (0) Dropbox chunked upload: 12.9 % uploaded (AAAAAAAAAA_QA1k7ROF_Cg, 10485760, 10240 KB)
+0087.582 (0) Dropbox chunked upload: 25.7 % uploaded (AAAAAAAAAA_QA1k7ROF_Cg, 20971520, 10240 KB)
+0093.059 (0) Dropbox chunked upload: 38.6 % uploaded (AAAAAAAAAA_QA1k7ROF_Cg, 31457280, 10240 KB)
+0098.990 (0) Dropbox chunked upload: 51.4 % uploaded (AAAAAAAAAA_QA1k7ROF_Cg, 41943040, 10240 KB)
+0104.094 (0) Dropbox chunked upload: 64.3 % uploaded (AAAAAAAAAA_QA1k7ROF_Cg, 52428800, 10240 KB)
+0109.758 (0) Dropbox chunked upload: 77.1 % uploaded (AAAAAAAAAA_QA1k7ROF_Cg, 62914560, 10240 KB)
+0115.536 (0) Dropbox chunked upload: 90 % uploaded (AAAAAAAAAA_QA1k7ROF_Cg, 73400320, 10240 KB)
+0124.294 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAAA_QA1k7ROF_Cg, 81553420, 10240 KB)
+0126.610 (0) Recording as successfully uploaded: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-uploads.zip (d8cf0c4cd2c52ac33dcf718afbac665c)
+0126.644 (0) Deleting local file: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-uploads.zip: OK
+0126.645 (0) Dropbox: File upload success (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-uploads.zip): 79642 KB in 50s (1586 KB/s)
+0126.892 (0) Dropbox quota usage: normal=204.6 MB, shared=0 MB, total=2048 MB, available=1843.4 MB
+0126.894 (0) Dropbox: Attempt to upload: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-others.zip to: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-others.zip
+0127.323 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAABCtP3NuIErV2Q, 12248, 10240 KB)
+0128.630 (0) Recording as successfully uploaded: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-others.zip (027cb2f0d096a0738d9813ce3b505017)
+0128.634 (0) Deleting local file: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-others.zip: OK
+0128.635 (0) Dropbox: File upload success (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-others.zip): 11 KB in 1s (6 KB/s)
+0128.872 (0) Dropbox quota usage: normal=204.6 MB, shared=0 MB, total=2048 MB, available=1843.4 MB
+0128.877 (0) Dropbox: Attempt to upload: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db.gz to: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db.gz
+0130.518 (0) Dropbox chunked upload: 100 % uploaded (AAAAAAAAABHSiLVqOs-lvw, 638588, 10240 KB)
+0131.974 (0) Recording as successfully uploaded: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db.gz (09fbc83f553712442127fc3f9e1202f0)
+0132.002 (0) Deleting local file: backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db.gz: OK
+0132.006 (0) Dropbox: File upload success (backup_2016-04-14-0018_Chicago_Estate_Planning_2b00e94eb6a0-db.gz): 623 KB in 3s (199 KB/s)
+0132.012 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0132.034 (0) Number of backup sets in history: 1; groups (db): 1
+0132.040 (0) Examining (for databases) backup set with group_id=0, nonce=2b00e94eb6a0, datestamp=1460593110 (Apr 14 2016 00:18:30)
+0132.041 (0) This backup set is the backup set just made, so will not be deleted.
+0132.042 (0) Number of backup sets in history: 1; groups (files): 1
+0132.044 (0) Examining (for files) backup set with nonce=2b00e94eb6a0, datestamp=1460593110 (Apr 14 2016 00:18:30)
+0132.045 (0) This backup set is the backup set just made, so will not be deleted.
+0132.046 (0) This backup set is the backup set just made, so will not be deleted.
+0132.046 (0) This backup set is the backup set just made, so will not be deleted.
+0132.046 (0) This backup set is the backup set just made, so will not be deleted.
+0132.047 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0132.064 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0132.068 (0) Resume backup (2b00e94eb6a0, 0): finish run
+0132.073 (0) Decremented the semaphore (fd) by 1
+0132.074 (0) Semaphore (fd) unlocked
+0132.076 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0132.095 (0) No email will/can be sent - the user has not configured an email address.
+0132.096 (0) The backup apparently succeeded and is now complete
