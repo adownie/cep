@@ -43,6 +43,7 @@ function koenda_of_register_js() {
 	if (!is_admin()) {
 		wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js', array('jquery'),'1.0', true);
 		wp_enqueue_script('cycle', get_template_directory_uri() . '/js/jquery.cycle.all.js', array('jquery'),'1.0', true);
+		wp_enqueue_style( 'stylesheet', get_template_directory_uri() . '/css/custom-styles.css',false,'1.1','all');
 	}
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

@@ -43,6 +43,7 @@ get_header(); ?>
 							<?php if (of_get_option('footer_box_1_image')<>'') : ?><a href="<?php  echo of_get_option('footer_box_1_link'); ?>"><img height="180" width="270" src="<?php  echo of_get_option('footer_box_1_image'); ?>" alt="" /></a><?php endif; ?>						
 							<h5><a href="<?php  echo of_get_option('footer_box_1_link'); ?>"><?php  echo of_get_option('footer_box_1_title'); ?></a></h5>
 							<p><?php  echo of_get_option('footer_box_1_content'); ?></p>
+							<a class="wpb_button_a" title="Learn More" href="<?php  echo of_get_option('footer_box_1_link'); ?>"><span class="wpb_button  wpb_btn-danger wpb_regularsize">Learn More</span></a>
 						</div>
 						<?php endif; ?>
 						<?php if (of_get_option('footer_box_2_title')<>'') : ?>
@@ -50,6 +51,7 @@ get_header(); ?>
 							<?php if (of_get_option('footer_box_2_image')<>'') : ?><a href="<?php  echo of_get_option('footer_box_2_link'); ?>"><img height="180" width="270" src="<?php  echo of_get_option('footer_box_2_image'); ?>" alt="" /></a><?php endif; ?>							
 							<h5><a href="<?php  echo of_get_option('footer_box_2_link'); ?>"><?php  echo of_get_option('footer_box_2_title'); ?></a></h5>
 							<p><?php  echo of_get_option('footer_box_2_content'); ?></p>
+							<a class="wpb_button_a" title="Learn More" href="<?php  echo of_get_option('footer_box_2_link'); ?>"><span class="wpb_button  wpb_btn-danger wpb_regularsize">Learn More</span></a>
 						</div>
 						<?php endif; ?>
 						<?php if (of_get_option('footer_box_3_title')<>'') : ?>
@@ -57,6 +59,7 @@ get_header(); ?>
 							<?php if (of_get_option('footer_box_3_image')<>'') : ?><a href="<?php  echo of_get_option('footer_box_3_link'); ?>"><img height="180" width="270" src="<?php  echo of_get_option('footer_box_3_image'); ?>" alt="" /></a><?php endif; ?>							
 							<h5><a href="<?php  echo of_get_option('footer_box_3_link'); ?>"><?php  echo of_get_option('footer_box_3_title'); ?></a></h5>
 							<p><?php  echo of_get_option('footer_box_3_content'); ?></p>
+							<a class="wpb_button_a" title="Learn More" href="<?php  echo of_get_option('footer_box_3_link'); ?>"><span class="wpb_button  wpb_btn-danger wpb_regularsize">Contact John</span></a>
 						</div>
 						<?php endif; ?>
                         <div class="clear"></div>						
