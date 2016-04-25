@@ -43,6 +43,7 @@ function koenda_of_register_js() {
 	if (!is_admin()) {
 		wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js', array('jquery'),'1.0', true);
 		wp_enqueue_script('cycle', get_template_directory_uri() . '/js/jquery.cycle.all.js', array('jquery'),'1.0', true);
+		wp_enqueue_style( 'js-composer', get_template_directory_uri() . '/css/js_composer.css',false,'4.3','all');
 		wp_enqueue_style( 'stylesheet', get_template_directory_uri() . '/css/custom-styles.css',false,'1.1','all');
 	}
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -57,4 +58,43 @@ function pwt_of_analytics(){
 	echo '<script>'.stripslashes($analytics_code).'</script>';
 }
 add_action( 'wp_footer', 'pwt_of_analytics' );
+
+
+
+/**
+ * Custom subnav for Article pages
+ */ 
+function koenda_article_subnav() { 
+
+	$submenu = '<h2><a href="/articles/estate-planning-101">Lessons in Estate Planning 101:</a></h2><ol>' . wp_list_pages("title_li=&child_of=33&echo=0") . '</ol>';
+
+	return $submenu;
+
+}
+
+add_shortcode('koenda_subnav', 'koenda_article_subnav');
+
+/**
+ * Adding subnav for Articles
+ */ 
+function wpb_list_child_pages() { 
+
+global $post; 
+
+if ( is_page() && $post->post_parent )
+
+	$childpages = wp_list_pages( 'sort_column=menu_order&title_li=&child_of=' . $post->post_parent . '&echo=0' );
+else
+	$childpages = wp_list_pages( 'sort_column=menu_order&title_li=&child_of=' . $post->ID . '&echo=0' );
+
+if ( $childpages ) {
+
+	$string = '<ol>' . $childpages . '</ol>';
+}
+
+return $string;
+
+}
+
+add_shortcode('wpb_childpages', 'wpb_list_child_pages');
 ?>
