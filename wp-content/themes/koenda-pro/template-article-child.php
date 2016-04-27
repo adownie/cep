@@ -23,7 +23,9 @@ get_header(); ?>
 						<div class="page-navigation">
 							<?php
 							// $pagelist = get_pages('sort_column=menu_order&sort_order=asc');
-							$pagelist = get_pages( array('sort_column' => 'menu_order') );
+							$pagelist = get_pages( array(
+								'sort_column' => 'menu_order', 
+								'child_of' =>'33') );
 							$pages = array();
 							foreach ($pagelist as $page) {
 							   $pages[] += $page->ID;
