@@ -27,3 +27,43 @@ a.button:hover, .wpb_button:hover {
 .wpb_btn-danger {
 	background-color: #ff675b;
 }
+
+/* page navigation */
+
+.page-navigation .alignleft,
+.page-navigation .alignright {
+	margin: 10px;
+}
+.page-navigation .alignleft {
+	padding-left: 20px;
+	position: relative;
+}
+.page-navigation .alignright {
+	padding-right: 20px;
+	position: relative;
+}
+.page-navigation .alignleft:before {
+	content: '';
+	background: url('../images/arrow.png') no-repeat;
+	background-position: 50%;
+	position: absolute;
+	display: inline-block;
+	width: 20px;
+	height: 15px;
+	left: 0;
+	transform: rotate(180deg);
+}
+.page-navigation .alignright:before {
+	content: '';
+	background: url('../images/arrow.png') no-repeat;
+	background-position: 50%;
+	position: absolute;
+	display: inline-block;
+	width: 20px;
+	height: 15px;
+	right: 0;	
+}
+
+.page-navigation a {
+	font-size: 1rem;
+}
