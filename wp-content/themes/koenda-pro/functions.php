@@ -66,7 +66,7 @@ add_action( 'wp_footer', 'pwt_of_analytics' );
  */ 
 function koenda_article_subnav() { 
 
-	$submenu = '<h2><a href="/articles/estate-planning-101">Lessons in Estate Planning 101:</a></h2><ol>' . wp_list_pages("title_li=&child_of=33&echo=0") . '</ol>';
+	$submenu = '<div class="subnav"><h2><a href="/articles/estate-planning-101">Lessons in Estate Planning 101:</a></h2><ol>' . wp_list_pages("title_li=&child_of=33&echo=0") . '</ol></div>';
 
 	return $submenu;
 
