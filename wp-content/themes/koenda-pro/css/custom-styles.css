@@ -30,13 +30,16 @@ a.button:hover, .wpb_button:hover {
 
 /* page navigation */
 
+.subnav {
+	margin-top: 20px;
+}
 .subnav ol .current_page_item a {
 	color: #5A5A5A;
 }
 
 .page-navigation .alignleft,
 .page-navigation .alignright {
-	margin: 10px;
+	margin: 10px 0;
 }
 .page-navigation .alignleft {
 	padding-left: 20px;
