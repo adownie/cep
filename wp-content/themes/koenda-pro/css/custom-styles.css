@@ -1,3 +1,12 @@
+/* Header/Global Stuff */
+
+#header .logo {
+	display: block;
+	margin: 0;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
 a.button, .button, .wpb_button {
 	margin: 5px 0;
 	background-color: #ff675b;
@@ -6,7 +15,7 @@ a.button, .button, .wpb_button {
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   display: inline-block;
   padding: 7px 14px;
-  font-size: 13px;
+  font-size: 1rem;
   line-height: 21px;  
   text-align: center;
   vertical-align: middle;
@@ -19,6 +28,11 @@ a.button, .button, .wpb_button {
   width: auto;
 }
 
+p, .singlepost p, .posts li, .singlepost li, 
+.post-date, .eemail_caption, .widget li, 
+.wpp-comments, .wp-pagenavi .pages {
+	font-size: 1rem !important;
+}
 a.button:hover, .wpb_button:hover {
 	background: #ff4f42;
 	text-decoration: none;
@@ -30,6 +44,24 @@ a.button:hover, .wpb_button:hover {
 
 /* page navigation */
 
+.menuwrapp {
+	background: #0592c9;
+}
+
+ul.menu {
+	display: inline-block;
+}
+
+.zeno_font_resizer_container {
+	display: inline-block;  
+  text-align: right;
+  float: right;
+  margin: 15px 25px;	
+}
+
+.zeno_font_resizer a {
+	color: #fff;
+}
 .subnav {
 	margin: 20px 0;
 }
@@ -73,4 +105,22 @@ a.button:hover, .wpb_button:hover {
 
 .page-navigation a {
 	font-size: 1rem;
+}
+
+/* Content styles */
+
+.homepage .koenda-chb h5 {
+	font-size: 1.25rem;
+}
+
+.homepage h1 {
+	font-size: 1.4rem;
+}
+
+#content .singlepost h2 {
+	font-size: 1.5rem;
+}
+
+#content .posts h2 {
+	font-size: 1.5rem;
 }

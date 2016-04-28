@@ -37,6 +37,11 @@
 			<?php } else { ?>
 				<?php wp_nav_menu(  array( 'menu_class'  => 'menu' ) ); ?>	
 			<?php } ?>
+			<?php
+			    if (function_exists('zeno_font_resizer_place')) {
+			        zeno_font_resizer_place();
+			    }
+			?>			
 			</div> <!--  END menuwrapp  -->
 			<div class="menuwrapp_mobile">
 					 <a class="mobilemenu_toggle" href="#" >Menu</a>
