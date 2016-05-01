@@ -7,7 +7,7 @@
 	box-sizing: border-box;
 }
 
-a.button, .button, .wpb_button {
+a.button, .button, .wpb_button, .wpcf7-submit {
 	margin: 5px 0;
 	background-color: #ff675b;
 	border-color: rgba(0, 0, 0, 0.1);
@@ -28,10 +28,20 @@ a.button, .button, .wpb_button {
   width: auto;
 }
 
-p, .singlepost p, .posts li, .singlepost li, 
-.post-date, .eemail_caption, .widget li, 
-.wpp-comments, .wp-pagenavi .pages {
-	font-size: 1rem !important;
+.wpcf7-submit {
+	background: #ff675b;
+}
+
+p, 
+#content .singlepost p, 
+.posts li, 
+.singlepost li, 
+.post-date, 
+.eemail_caption, 
+.widget li, 
+.wpp-comments, 
+.wp-pagenavi .pages {
+	font-size: 1rem;
 }
 a.button:hover, .wpb_button:hover {
 	background: #ff4f42;
@@ -123,4 +133,24 @@ ul.menu {
 
 #content .posts h2 {
 	font-size: 1.5rem;
+}
+
+/* Sidebar */
+
+.vcard2 {
+  border-top: none;
+  float: left;
+  font-size: 1em;
+  background: transparent url(media/_img/map_icon.gif) 0 20px no-repeat;
+  padding: 10px 20px 20px;
+  font-weight: bold;	
+}
+
+.vcard2 p {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.widget {
+	padding: 15px;
 }
