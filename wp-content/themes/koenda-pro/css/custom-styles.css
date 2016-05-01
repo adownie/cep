@@ -34,11 +34,11 @@ a.button, .button, .wpb_button, .wpcf7-submit {
 
 p, 
 #content .singlepost p, 
-.posts li, 
-.singlepost li, 
+#content .posts li, 
+#content .singlepost li, 
 .post-date, 
 .eemail_caption, 
-.widget li, 
+#content .widget li, 
 .wpp-comments, 
 .wp-pagenavi .pages {
 	font-size: 1rem;
