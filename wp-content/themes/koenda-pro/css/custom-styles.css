@@ -52,6 +52,20 @@ a.button:hover, .wpb_button:hover {
 	background-color: #ff675b;
 }
 
+/* resizer overrides */
+
+.zeno_font_resizer .zeno_font_resizer_minus {
+	font-size: 12px !important;
+}
+
+.zeno_font_resizer .zeno_font_resizer_reset {
+	font-size: 16px !important;
+}
+
+.zeno_font_resizer .zeno_font_resizer_add {
+	font-size: 20px !important;
+}
+
 /* page navigation */
 
 .menuwrapp {
@@ -127,12 +141,21 @@ ul.menu {
 	font-size: 2rem;
 }
 
-#content .singlepost h2 {
-	font-size: 1.5rem;
+#content .singlepost h2, #content .posts h2 {
+	font-size: 2rem;
+	line-height: 1;
+	margin: 20px 0;
 }
 
-#content .posts h2 {
+#content .singlepost h3, #content .posts h3 {
 	font-size: 1.5rem;
+	line-height: 1;
+}
+
+#content .singlepost h4 {
+	font-family: Arial,sans-serif;
+	font-weight: bold;
+	font-size: 1.15rem;
 }
 
 /* Sidebar */
