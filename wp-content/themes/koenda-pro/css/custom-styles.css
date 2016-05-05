@@ -17,6 +17,7 @@ a.button, .button, .wpb_button, .wpcf7-submit {
   padding: 7px 14px;
   font-size: 1rem;
   line-height: 21px;  
+  height: auto;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -26,13 +27,14 @@ a.button, .button, .wpb_button, .wpcf7-submit {
   display: inline-block;
   margin-top: 20px;
   width: auto;
+  text-transform: uppercase;
 }
 
 .wpcf7-submit {
 	background: #ff675b;
 }
 
-p, 
+#content p, 
 #content .singlepost p, 
 #content .posts li, 
 #content .singlepost li, 
@@ -169,11 +171,21 @@ ul.menu {
   font-weight: bold;	
 }
 
-.vcard2 p {
+#content .vcard2 p {
   font-size: 0.9rem;
   font-weight: bold;
 }
 
 .widget {
 	padding: 15px;
+}
+
+/* Scroll up */
+
+#scrollUp {  
+  background: #fff;
+  padding: 6px 10px;
+  border-radius: 9px;
+  font-size: 11px;
+  font-weight: bold;	
 }
