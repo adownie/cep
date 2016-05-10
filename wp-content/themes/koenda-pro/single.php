@@ -15,9 +15,8 @@ get_header(); ?>
 						<li id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 							<div class="short">
 								<h2><?php if(get_the_title($post->ID)) { the_title(); } else { the_time('j M Y');} ?></h2>
-								<p class="posted"><span class="date_time"><?php the_time('j M Y'); ?></span> 
-								<span class="postedby"><?php the_author(); ?></span> <span class="commentcount">
-								<?php comments_popup_link('<span class="icon comments"></span> 0', '<span class="icon comments"></span> 1', '<span class="icon comments"></span> %', 'comment-link'); ?></span></p>
+								<p class="posted">
+								<span >Posted By <?php the_author(); ?></span></p>
 								<?php if( has_post_thumbnail() ) { echo get_the_post_thumbnail( $post->ID, 'featured'); }?>
 								<p><?php the_content(); ?></p>
 								<p class="meta_tags"><?php _e( 'Categories:', 'koenda' ); ?> <?php the_category(', '); ?></p>
