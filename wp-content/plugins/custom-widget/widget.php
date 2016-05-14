@@ -52,9 +52,9 @@ public function mfc_assets()
 		<?php echo $instance['subtitle']; ?>
 			<!-- <?php echo wpautop( esc_html( $instance['subtitle'] ) ) ?> -->
 		</h3>			
-		<p>
+		<div class="contact-thumb">
 		<img src='<?php echo $instance['image'] ?>'>
-		</p>	
+		</div>	
 		<h4 class='contact-tagline'>
 			<?php echo $instance['tagline']; ?>
 			<!-- <?php echo wpautop( esc_html( $instance['tagline'] ) ) ?> -->
