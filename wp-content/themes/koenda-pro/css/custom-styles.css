@@ -216,8 +216,24 @@ h4.contact-tagline {
 #content .contact-info .phone {
 	font-weight: bold;
 	font-size: 1.1rem;
-
 }
+
+.contact-thumb {
+    height: 120px;
+    overflow: hidden;
+    width: 100%;
+    margin: 15px 0;
+    position: relative;	
+}
+
+.contact-thumb img {
+	width: 100%;
+	left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);	
+}
+
 /* Scroll up */
 
 #scrollUp {  
