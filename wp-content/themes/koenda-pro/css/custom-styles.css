@@ -12,22 +12,22 @@ a.button, .button, .wpb_button, .wpcf7-submit {
 	background-color: #ff675b;
 	border-color: rgba(0, 0, 0, 0.1);
 	color: #ffffff;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  display: inline-block;
-  padding: 7px 14px;
-  font-size: 1rem;
-  line-height: 21px;  
-  height: auto;
-  text-align: center;
-  vertical-align: middle;
-  cursor: pointer;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;  
-  display: inline-block;
-  margin-top: 20px;
-  width: auto;
-  text-transform: uppercase;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	display: inline-block;
+	padding: 7px 14px;
+	font-size: 1rem;
+	line-height: 21px;  
+	height: auto;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;  
+	display: inline-block;
+	margin-top: 20px;
+	width: auto;
+	text-transform: uppercase;
 }
 
 .wpcf7-submit {
@@ -80,9 +80,9 @@ ul.menu {
 
 .zeno_font_resizer_container {
 	display: inline-block;  
-  text-align: right;
-  float: right;
-  margin: 15px 25px;	
+	text-align: right;
+	float: right;
+	margin: 15px 25px;	
 }
 
 .zeno_font_resizer a {
@@ -149,7 +149,12 @@ ul.menu {
 	margin: 20px 0;
 }
 
-#content .singlepost h3, #content .posts h3 {
+.sidebar .widget h2 {
+	font-size: 1.7rem;
+}
+
+
+#content .singlepost h3, #content .posts h3, .widget h3 {
 	font-size: 1.5rem;
 	line-height: 1;
 }
@@ -163,29 +168,62 @@ ul.menu {
 /* Sidebar */
 
 .vcard2 {
-  border-top: none;
-  float: left;
-  font-size: 1em;
-  background: transparent url(media/_img/map_icon.gif) 0 20px no-repeat;
-  padding: 10px 20px 20px;
-  font-weight: bold;	
+	border-top: none;
+	float: left;
+	font-size: 1em;
+	background: transparent url(media/_img/map_icon.gif) 0 20px no-repeat;
+	padding: 10px 20px 20px;
+	font-weight: bold;	
 }
 
 #content .vcard2 p {
-  font-size: 0.9rem;
-  font-weight: bold;
+	font-size: 0.9rem;
+	font-weight: bold;
 }
 
 .widget {
 	padding: 15px;
 }
 
+/* Contact Sidebar */
+
+.contact-widget {
+	text-align: center;
+}
+
+.contact-widget h3.contact-subtitle {
+	font-family: Arial,sans-serif;
+	font-weight: bold;
+	font-size: 1rem;
+	color: #ec1e24;
+	line-height: 1.4;
+}
+
+h4.contact-tagline {
+	font-size: 1rem;
+	line-height: 1.3;
+	font-weight: 600;
+	border-top: 2px solid #0592c9;
+	border-bottom: 2px solid #0592c9;
+	padding: 10px 0;	
+}
+
+#content .contact-info p {
+	font-size: 0.9rem;
+	margin-top: 15px;
+}
+
+#content .contact-info .phone {
+	font-weight: bold;
+	font-size: 1.1rem;
+
+}
 /* Scroll up */
 
 #scrollUp {  
-  background: #666;
-  color: #fff;
-  padding: 6px 10px;
-  border-radius: 9px;
-  font-size: 12px; 
+	background: #666;
+	color: #fff;
+	padding: 6px 10px;
+	border-radius: 9px;
+	font-size: 12px; 
 }
