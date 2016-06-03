@@ -243,3 +243,28 @@ h4.contact-tagline {
 	border-radius: 9px;
 	font-size: 12px; 
 }
+
+/* Modal/Form Stuff */
+
+.modal {
+	padding: 20px;
+}
+
+div.wpcf7-response-output {
+	margin: 1rem 0;
+	font-size: 1rem;
+}
+
+a.download-icon {
+	font-size: 1.1rem;
+	text-decoration: underline;
+}
+
+.wpcf7-form p {
+	font-size: 1rem;
+	margin: 15px 0;
+}
+
+.wpcf7-submit:hover {
+	background: #ff4f42;	
+}
