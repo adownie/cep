@@ -30,6 +30,9 @@ a.button, .button, .wpb_button, .wpcf7-submit {
 	text-transform: uppercase;
 }
 
+.singlepost ol li {
+	margin: 15px 0;
+}
 .wpcf7-submit {
 	background: #ff675b;
 }
@@ -191,7 +194,8 @@ ul.menu {
 	text-align: center;
 }
 
-.contact-widget h3.contact-subtitle {
+.contact-widget .contact-subtitle,
+.contact-widget .contact-subtitle p {
 	font-family: Arial,sans-serif;
 	font-weight: bold;
 	font-size: 1rem;
@@ -267,4 +271,73 @@ a.download-icon {
 
 .wpcf7-submit:hover {
 	background: #ff4f42;	
+}
+
+/* Icon stuff */
+
+
+.download-btn {
+	position: relative;
+	padding-left: 25px;
+}
+.download-btn:before {
+	content: '\e9c7';
+	font-size: 1.2rem;
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;	
+  position: absolute;
+  left: 0;
+  top: -1px;
+}
+
+a.contact-btn {
+	position: relative;
+	padding-left: 38px;
+}
+a.contact-btn:before {
+	content: '\e900';
+	font-size: 1.2rem;
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;	
+  position: absolute;
+  left: 11px;
+  top: 7px;
+}
+
+.phone {
+	position: relative;
+	padding-left: 22px;
+}
+.phone:before {
+	content: '\e942';
+	font-size: 1.1rem;
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;	
+  position: absolute;
+  left: 0px;
+  top: 1px;
 }

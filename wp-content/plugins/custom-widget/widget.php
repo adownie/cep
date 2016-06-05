@@ -48,10 +48,9 @@ public function mfc_assets()
 			echo $args['before_title'] . apply_filters( 'widget_title', $instance['title'] ). $args['after_title'];
 		}
 		?>
-		<h3 class='contact-subtitle'>
-		<?php echo $instance['subtitle']; ?>
-			<!-- <?php echo wpautop( esc_html( $instance['subtitle'] ) ) ?> -->
-		</h3>			
+		<div class='contact-subtitle'>
+		<?php echo wpautop( $instance['subtitle']); ?>
+		</div>			
 		<div class="contact-thumb">
 		<img src='<?php echo $instance['image'] ?>'>
 		</div>	
@@ -65,7 +64,7 @@ public function mfc_assets()
 		</div>
 
 		<div class='mfc-link'>
-			<a href='<?php echo esc_url( $instance['link_url'] ) ?>' class="button"><?php echo esc_html( $instance['link_title'] ) ?></a>
+			<a href='<?php echo esc_url( $instance['link_url'] ) ?>' class="button contact-btn"><?php echo esc_html( $instance['link_title'] ) ?></a>
 		</div>
 
 		<?php
@@ -120,7 +119,7 @@ public function mfc_assets()
         </p>
         <p>
             <label for="<?php echo $this->get_field_name( 'subtitle' ); ?>"><?php _e( 'Subtitle:' ); ?></label>
-            <input class="widefat" id="<?php echo $this->get_field_id( 'subtitle' ); ?>" name="<?php echo $this->get_field_name( 'subtitle' ); ?>" type="text" value="<?php echo esc_attr( $subtitle ); ?>" />
+            <textarea class="widefat" id="<?php echo $this->get_field_id( 'subtitle' ); ?>" name="<?php echo $this->get_field_name( 'subtitle' ); ?>" type="text" ><?php echo esc_attr( $subtitle ); ?></textarea>            
         </p>
         <p>
             <label for="<?php echo $this->get_field_name( 'image' ); ?>"><?php _e( 'Image:' ); ?></label>
