@@ -278,7 +278,9 @@ a.download-icon {
 
 .download-btn {
 	position: relative;
+	display: block;
 	padding-left: 25px;
+	margin: 20px 0;
 }
 .download-btn:before {
 	content: '\e9c7';
@@ -340,4 +342,31 @@ a.contact-btn:before {
   position: absolute;
   left: 0px;
   top: 1px;
+}
+
+.icon-button.download-icon {
+	position: relative;
+	display: block;
+	padding-left: 25px;
+	margin: 20px 0;	
+	font-family: Arial,sans-serif;
+	text-decoration: none;
+}
+
+.icon-button.download-icon:before {
+	content: '\e9c7';
+	font-size: 1.2rem;
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;	
+  position: absolute;
+  left: 0;
+  top: -1px;	
 }
