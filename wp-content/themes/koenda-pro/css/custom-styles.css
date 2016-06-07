@@ -203,13 +203,17 @@ ul.menu {
 	line-height: 1.4;
 }
 
-h4.contact-tagline {
-	font-size: 1rem;
-	line-height: 1.3;
-	font-weight: 600;
+.contact-tagline {
 	border-top: 2px solid #0592c9;
 	border-bottom: 2px solid #0592c9;
 	padding: 10px 0;	
+}
+.contact-tagline p {
+	font-size: 1rem;
+	line-height: 1.3;
+	font-weight: 600;
+	color: #252525;
+	font-family: Corbel, 'Myriad Pro', sans-serif;
 }
 
 #content .contact-info p {
