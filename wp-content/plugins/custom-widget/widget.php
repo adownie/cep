@@ -54,10 +54,11 @@ public function mfc_assets()
 		<div class="contact-thumb">
 		<img src='<?php echo $instance['image'] ?>'>
 		</div>	
-		<h4 class='contact-tagline'>
-			<?php echo $instance['tagline']; ?>
+		<div class='contact-tagline'>
+			
+			<?php echo wpautop( $instance['tagline']); ?>
 			<!-- <?php echo wpautop( esc_html( $instance['tagline'] ) ) ?> -->
-		</h4>
+		</div>
 
 		<div class='contact-info'>
 			<?php echo wpautop( $instance['contact_info'] ); ?>
