@@ -3,10 +3,14 @@
 #header .logo {
 	display: block;
 	margin: 0;
-	padding: 20px;
+	padding: 20px 40px;
 	box-sizing: border-box;
+	text-align: center;
 }
-
+#header .logo img {
+	max-width: 665px;
+	height: auto;
+}
 .singlepost img.alignleft {
 	margin-right: 50px !important;
 	margin-bottom: 40px;
