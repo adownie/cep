@@ -359,8 +359,7 @@ a.contact-btn:before {
 
 .icon-button.download-icon {
 	position: relative;
-	display: block;
-	padding-left: 25px;
+	padding-left: 35px;
 	margin: 20px 0;	
 	font-family: Arial,sans-serif;
 	text-decoration: none;
@@ -382,6 +381,34 @@ a.contact-btn:before {
   position: absolute;
   left: 0;
   top: -1px;	
+}
+
+.icon-button.download-icon {	
+	margin: 5px 0;
+  background-color: #ff675b;
+  border-color: rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  display: inline-block;
+  padding: 7px 14px;
+  font-size: 1rem;
+  line-height: 21px;
+  height: auto;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  display: inline-block;
+  margin-top: 20px;
+  width: auto;
+  text-transform: uppercase;
+  padding-left: 35px;
+}
+a.icon-button.download-icon:before {
+	left: 9px;
+	top: 7px;
 }
 
 .vc_col-sm-3 {
