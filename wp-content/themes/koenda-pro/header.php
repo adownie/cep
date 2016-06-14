@@ -16,6 +16,21 @@
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <?php wp_head(); ?>
+
+<script type="text/javascript">
+	function hideForm() {
+		// document.getElementById('hideform').style.display = 'none';	
+		// document.getElementsByClassName('hideform')[0].style.display='none';
+
+	var hidden = document.getElementsByClassName('hideform'), i;
+
+	for (var i = 0; i < hidden.length; i ++) {
+    hidden[i].style.display = 'none';
+		}		
+	}
+
+</script>
+
 </head>
 <body <?php body_class(); ?>>
 	<div id="wrapper">

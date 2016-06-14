@@ -50,4 +50,8 @@
 	// Css
 	jQuery('.topbarnav li:first-child').css({'border-left':'none'});
 	
+
+	jQuery('.fancybox-inline').click(function(){
+		jQuery('.hideform').show();
+	});
 }); //Final Ready
