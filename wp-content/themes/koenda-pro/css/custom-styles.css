@@ -419,3 +419,32 @@ a.icon-button.download-icon:before {
 	width: 75%;
 	float: left;
 }
+
+/* Footer Stuff */
+
+#footer .copyright a {
+	color: #fff;
+	text-decoration: underline;
+	margin: 0 5px;
+}
+
+#footer .widget-footer {
+	margin: 0 20px 10px 0;
+	width: 220px;
+}
+
+.widget-footer form {
+	margin: 0;
+}
+
+#searchform #searchsubmit {
+	padding: 13px 5px;
+	width: 20%;
+}
+
+.widget-footer #searchform #s {
+	min-width: 170px;
+	width: 80%;
+	box-sizing: border-box;
+	padding: 20px 10px;
+}
