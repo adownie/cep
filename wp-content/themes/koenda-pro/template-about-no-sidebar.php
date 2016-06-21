@@ -38,7 +38,7 @@ get_header(); ?>
 
 						<?php the_field('secondary_content'); ?>
 					</div>
-					<?php if(function_exists('pf_show_link')){echo pf_show_link();} ?>						
+
 				</div> <!--  END Page  -->			
 			</div> <!--  END Clearfix  -->
 		</div> <!--  END Content  -->

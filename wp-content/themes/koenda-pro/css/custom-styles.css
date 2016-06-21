@@ -194,9 +194,14 @@ ul.menu {
 }
 
 .widget {
-	padding: 15px;
+	padding: 15px;	
 }
-
+.widget h2 {
+	text-align: center;
+}
+#download_widget p {
+	text-align: center;
+}
 /* Contact Sidebar */
 
 .contact-widget {
@@ -280,6 +285,7 @@ a.download-icon {
 .wpcf7-form p {
 	font-size: 1rem;
 	margin: 15px 0;
+	color: #000;
 }
 
 .wpcf7-submit:hover {
@@ -446,5 +452,8 @@ a.icon-button.download-icon:before {
 	min-width: 170px;
 	width: 80%;
 	box-sizing: border-box;
-	padding: 20px 10px;
+	padding: 10px;
+	color: #fff;
+	font-size: 1rem;
+	height: 45px;
 }
