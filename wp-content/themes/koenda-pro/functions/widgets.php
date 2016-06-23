@@ -29,8 +29,8 @@ function koenda_widgets_init() {
 		'after_title' => '</h2>',
 	));	
 	register_sidebar(array(
-		'name' => __( 'Blog Post Sidebar', "Koenda"),
-		'id' => 'blog-post-sidebar',
+		'name' => __( 'Secondary Sidebar', "Koenda"),
+		'id' => 'secondary-sidebar',
 		'description' => __( 'The sidebar on blog posts', "Koenda"),
 		'before_widget' => '<div class="widget">',
 		'after_widget' => '</div>',

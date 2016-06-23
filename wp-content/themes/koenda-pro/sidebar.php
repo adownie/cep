@@ -12,7 +12,7 @@ if (is_page()) {
 	if($new_sidebar==1){ $sidebar_select = 'widget-area-'.get_the_ID(); } else if($new_sidebar=='') { $sidebar_select = 'sidebar-widget-area'; } else { $sidebar_select = $new_sidebar; }
 } 
 elseif (is_single()) {
-	$sidebar_select = 'blog-post-sidebar';
+	$sidebar_select = 'sidebar-widget-area';
 }
 else {
  $sidebar_select = 'sidebar-widget-area';
