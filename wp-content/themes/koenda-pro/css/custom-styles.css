@@ -151,6 +151,38 @@ ul.menu {
 	font-size: 1.4rem;
 }
 
+.homepage .koenda-chb {
+	width: 29%;
+	margin: 20px 2%;
+}
+
+.homepage .post-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.homepage .koenda-chb .thumb-container {
+	width: 270px;
+	max-width: 100%;
+	height: 180px;
+	overflow: hidden;
+	border: 4px solid #FFFFFF;
+  box-shadow: 0 0 4px #868686;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.homepage .koenda-chb img {
+	width: 270px;
+	max-width: 100%;
+	border: 0;
+	box-shadow: none;
+	margin: 0;
+}
+
+.homepage .koenda-chb .printfriendly {
+	display: none;
+}
+
 .homepage h1 {
 	font-size: 2rem;
 }
@@ -459,4 +491,31 @@ a.icon-button.download-icon:before {
 	color: #fff;
 	font-size: 1rem;
 	height: 45px;
+}
+
+
+/* Media Queries */
+
+
+@media screen and (max-width: 1025px) {
+	.homepage .koenda-chb .thumb-container {
+		height: 120px;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	.homepage .koenda-chb {
+		width: 100%;
+		margin: 20px 0;
+	}
+	.homepage .koenda-chb .thumb-container {		
+		height: 180px;
+	}
+}
+
+@media screen and (max-width: 480px)  {
+	.homepage .koenda-chb .thumb-container {		
+		height: 120px;
+	}
 }

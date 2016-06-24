@@ -96,5 +96,7 @@ return $string;
 
 }
 
+ add_post_type_support( 'page', 'excerpt' );
+
 add_shortcode('wpb_childpages', 'wpb_list_child_pages');
 ?>
