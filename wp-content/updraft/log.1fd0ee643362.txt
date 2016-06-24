@@ -1,0 +1,70 @@
+0000.013 () Opened log file at time: Sun, 05 Jun 2016 20:35:37 +0000 on http://localhost/beta
+0000.013 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.4 WP: 4.5 PHP: 5.6.10 (Darwin Amandas-MBP.home 15.0.0 Darwin Kernel Version 15.0.0: Wed Aug 26 16:57:32 PDT 2015; root:xnu-3247.1.106~1/RELEASE_X86_64 x86_64) MySQL: 5.5.42 WPLANG:  Server: Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 33.3M | 33.8M) multisite: N openssl: OpenSSL 0.9.8r 8 Feb 2011 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.013 () Free space on disk containing Updraft's temporary directory: 451246 MB
+0000.014 () Restore job started. Entities to restore: db. Restore options: {"updraft_restorer_replacesiteurl":false,"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false}
+0000.109 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.112 () Entity: db
+0000.112 () restore_backup(backup_file=backup_2016-06-05-2033_Chicago_Estate_Planning_87d2ef54ad0b-db.gz, type=db, info=a:0:{}, last_one=1)
+0000.112 () Unpacking backup...
+0000.118 () Database successfully unpacked
+0000.119 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.119 () Using direct MySQL access; value of use_mysqli is: 1
+0000.176 () Max packet size: 32 MB
+0000.176 () Entering maintenance mode
+0000.176 () Enabling Maintenance mode&#8230;
+0000.208 () <strong>Backup of:</strong> http://beta.chicagoestateplanning.info
+0000.226 () Content URL: http://beta.chicagoestateplanning.info/wp-content
+0000.227 () Uploads URL: http://beta.chicagoestateplanning.info/wp-content/uploads
+0000.227 () Old table prefix: wp_quaj_
+0000.227 () Site information: multisite=0
+0000.252 () New table prefix: wp_quaj_
+0000.280 () Restoring table (MyISAM): wp_quaj_options
+0000.591 () Restoring prior UD configuration (table: wp_quaj_options; keys: 94)
+0000.667 () Restoring table (MyISAM): wp_quaj_users
+0000.951 () Restoring table (MyISAM): wp_quaj_usermeta
+0001.301 () Restoring table (MyISAM): wp_quaj_commentmeta
+0001.465 () Restoring table (MyISAM): wp_quaj_comments
+0001.633 () Restoring table (MyISAM): wp_quaj_links
+0001.872 () Restoring table (MyISAM): wp_quaj_postmeta
+0002.328 () Restoring table (MyISAM): wp_quaj_posts
+0002.547 () Restoring table (MyISAM): wp_quaj_term_relationships
+0002.690 () Restoring table (MyISAM): wp_quaj_term_taxonomy
+0002.889 () Restoring table (MyISAM): wp_quaj_termmeta
+0003.131 () Restoring table (MyISAM): wp_quaj_terms
+0003.496 () Restoring table (MyISAM): wp_quaj_download_log
+0003.790 () Restoring table (MyISAM): wp_quaj_ebd_item
+0004.026 () Restoring table (MyISAM): wp_quaj_ebd_link
+0004.249 () Database queries processed: 50 in 4.10 seconds
+0004.253 () Restoring table (MyISAM): wp_quaj_ebd_posted_data
+0004.446 () Restoring table (MyISAM): wp_quaj_edd_customers
+0004.651 () Restoring table (MyISAM): wp_quaj_event_hours
+0004.897 () Restoring table (MyISAM): wp_quaj_layerslider
+0005.114 () Restoring table (MyISAM): wp_quaj_reservations
+0005.325 () Restoring table (MyISAM): wp_quaj_wfBadLeechers
+0005.506 () Restoring table (MyISAM): wp_quaj_wfBlockedIPLog
+0005.760 () Restoring table (MyISAM): wp_quaj_wfBlocks
+0005.997 () Restoring table (MyISAM): wp_quaj_wfBlocksAdv
+0006.199 () Restoring table (MyISAM): wp_quaj_wfConfig
+0006.457 () Restoring table (MyISAM): wp_quaj_wfCrawlers
+0006.718 () Restoring table (MyISAM): wp_quaj_wfFileMods
+0007.090 () Restoring table (MyISAM): wp_quaj_wfHits
+0007.192 () Database queries processed: 100 in 7.04 seconds
+0007.298 () Restoring table (MyISAM): wp_quaj_wfHoover
+0007.520 () Restoring table (MyISAM): wp_quaj_wfIssues
+0007.751 () Restoring table (MyISAM): wp_quaj_wfLeechers
+0007.961 () Restoring table (MyISAM): wp_quaj_wfLockedOut
+0008.229 () Restoring table (MyISAM): wp_quaj_wfLocs
+0008.466 () Restoring table (MyISAM): wp_quaj_wfLogins
+0008.710 () Restoring table (MyISAM): wp_quaj_wfNet404s
+0009.033 () Restoring table (MyISAM): wp_quaj_wfReverseCache
+0009.258 () Restoring table (MyISAM): wp_quaj_wfScanners
+0009.604 () Restoring table (MyISAM): wp_quaj_wfStatus
+0009.986 () Restoring table (MyISAM): wp_quaj_wfThrottleLog
+0010.128 () Restoring table (MyISAM): wp_quaj_wfVulnScanners
+0010.390 () Restoring table (MyISAM): wp_quaj_yikes_easy_mc_forms
+0010.573 () Unlocking database and leaving maintenance mode
+0010.573 () Disabling Maintenance mode&#8230;
+0010.574 () Finished: lines processed: 135 in 10.43 seconds
+0010.574 () Cleaning up rubbish...
+0010.589 () Restore successful!
+0010.589 () Restore successful

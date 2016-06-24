@@ -399,3 +399,7 @@
 0132.076 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
 0132.095 (0) No email will/can be sent - the user has not configured an email address.
 0132.096 (0) The backup apparently succeeded and is now complete
+0000.000 (1) Opened log file at time: Sun, 17 Apr 2016 16:03:22 +0000 on http://localhost/beta
+0000.002 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.4 WP: 4.5 PHP: 5.6.10 (Darwin Amandas-MBP.home 15.0.0 Darwin Kernel Version 15.0.0: Wed Aug 26 16:57:32 PDT 2015; root:xnu-3247.1.106~1/RELEASE_X86_64 x86_64) MySQL: 5.5.42 WPLANG:  Server: Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 36.5M | 37.3M) multisite: N openssl: OpenSSL 0.9.8r 8 Feb 2011 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.029 (1) Free space on disk containing Updraft's temporary directory: 606325.9 MB
+0000.030 (1) This backup task (2b00e94eb6a0) is either complete or began over 2 days ago: ending (1460909002.29, ) (existing jobdata keys: )
